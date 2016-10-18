@@ -19,7 +19,7 @@ public class towerDefense extends GameEngine {
 
 	private Sound backgroundSound, enemySlain;
 	private TextObject dashboardText;
-	private EnemySpawner enemySpawner;
+//	private EnemySpawner enemySpawner;
 	private int enemiesSlain, enemiesLeft, wavesCompleted;
 	
 	public static void main(String[] args) {
