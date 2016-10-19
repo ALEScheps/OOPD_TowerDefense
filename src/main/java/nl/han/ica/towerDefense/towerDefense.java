@@ -29,8 +29,53 @@ public class towerDefense extends GameEngine {
 
 	@Override
 	public void setupGame() {
+		
+		int worldWidth = 1960, worldHeight = 1080;
+		
+		initializeSound();
+		createDashboard(worldWidth, 100);
+		initializeTileMap();
+//		initializePersistence();
+		
+		createObjects();
+		createEnemySpawner();
+		
+		createView(worldWidth, worldHeight);
+		
+		
+	}
+
+	private void initializeSound() {
 		// TODO Auto-generated method stub
 		
+	}
+
+	private void createDashboard(int worldWidth, int i) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	private void initializeTileMap() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	private void createObjects() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	private void createEnemySpawner() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	private void createView(int screenWidth, int screenHeight) {
+		View view = new View(screenWidth,screenHeight);
+		view.setBackground(102,51,0);
+		
+		setView(view);
+		size(screenWidth, screenHeight);
 	}
 
 	@Override
